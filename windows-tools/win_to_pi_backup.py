@@ -6,8 +6,8 @@ from pathlib import Path
 from datetime import datetime
 
 # --- KONFIGURATION ---
-PI_HOST = "admin@192.168.0.32"
-SMB_TARGET_ROOT = Path(r"\\192.168.0.32\PiShare\WindowsBackups")
+PI_HOST = "admin@<PI_IP_ADRESSE>"
+SMB_TARGET_ROOT = Path(r"\\<PI_IP_ADRESSE>\PiShare\WindowsBackups")
 LOG_FILE = r"C:\AdminScripts\win_to_pi_backup.log"
 
 # Ordner auf deinem Windows-PC, die gesichert werden sollen
